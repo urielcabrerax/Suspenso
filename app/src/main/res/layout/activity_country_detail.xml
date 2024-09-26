@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título del país -->
+    <TextView
+        android:id="@+id/countryNameTextView"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Imagen de la bandera del país -->
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Detalles del país -->
+    <TextView
+        android:id="@+id/countryDetailTextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="#555"
+        android:textSize="18sp" />
+
+</LinearLayout>
